@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/home" className="logo">
+        <Link to="/" className="logo">
           Kulcsár Valter
         </Link>
         <div className="nav-link">
           <ul>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/about" className="about">
               About
             </Link>

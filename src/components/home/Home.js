@@ -4,7 +4,7 @@ import Image from "../assets/Fenykep3.png";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="hompage-container">
       <div className="homepage-image">
         <img src={Image} alt=""></img>
         <h1>Kulcsár Valter</h1>

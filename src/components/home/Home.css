@@ -1,13 +1,9 @@
-
-
-.container{
+.hompage-container{
     margin: 10% 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .homepage-image img{
     width: 10vw
