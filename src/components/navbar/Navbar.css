@@ -1,0 +1,43 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-link a{
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-link a::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.nav-link a:hover::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 100%;
+}
